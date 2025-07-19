@@ -35,6 +35,22 @@ The system manages heating based on temperature thresholds with support for **Au
 
 ---
 
+## Communication Protocols Used
+
+| Protocol     | Purpose                                 | Device         |
+|--------------|------------------------------------------|----------------|
+| **I2C**      | Serial communication with OLED display   | SSD1306 OLED   |
+| **OneWire**  | Communication with the temperature sensor | DS18B20        |
+| **Serial**   | Logging, debug info, manual input         | Serial Monitor |
+
+### 🔍 Why These Protocols?
+
+- **I2C** is ideal for displays like SSD1306 due to its low pin usage and fast speed.
+- **OneWire** is required by the DS18B20 and allows data + power over a single data line.
+- **Serial** interface allows real-time monitoring and user interaction.
+
+---
+
 ## Operating Modes
 
 ### Manual Mode
