@@ -1,6 +1,6 @@
-# Heater Control System – Embedded Systems Intern Assignment (upliance.ai)
+# Heater Control System – Embedded Systems 
 
-This project is a submission for the **Embedded Systems Intern Assignment** by [upliance.ai](https://upliance.ai). It simulates a basic **heater control system** using an **ESP32**, **DS18B20 temperature sensor**, **OLED display**, and other peripherals.
+It simulates a basic **heater control system** using an **ESP32**, **DS18B20 temperature sensor**, **OLED display**, and other peripherals.
 
 The system manages heating based on temperature thresholds with support for **Auto/Manual modes**, **multiple heating profiles**, **overheat protection**, and **visual/audible feedback**. Developed using **Arduino framework** with **FreeRTOS** support.
 
